@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply bg-primary py-2 block w-full;
+  }
+  .btn-secondary{
+    @apply bg-white py-3 text-center font-medium rounded-full font-semibold hover:border-primary
+  }
+  .container {
+    @apply max-w-[333px] mx-auto bg-primary h-full;
+  }
+}
